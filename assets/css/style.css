@@ -1,0 +1,37 @@
+.brand-heading {
+  font-family: 'Syne';
+  text-align: left;
+}
+
+.purinalogo {
+  max-width: 233px;
+}
+
+p {
+  font-family: 'Syne';
+  font-size: 20px;
+}
+
+.brand-heading {
+  line-height: 79px;
+}
+
+h2 {
+  font-family: 'Syne';
+}
+
+@media (max-width: 766px) {
+  .brand-heading {
+    line-height: 44px;
+  }
+}
+
+.content-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h1, h2, h3, h4, p {
+  color: #bfbebf;
+}
+

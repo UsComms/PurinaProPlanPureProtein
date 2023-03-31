@@ -185,3 +185,13 @@ h1, h2, h3, h4, p {
     max-width: 1300px;
   }
 }
+
+.tiktok-btn {
+  color: rgb(180, 87, 49);
+  border: 1px solid rgb(180, 87, 49);;
+  background-color: transparent;
+}
+.tiktok-btn:hover{
+  border: 1px solid rgb(180, 87, 49);;
+  background-color: rgb(180, 87, 49);  
+}

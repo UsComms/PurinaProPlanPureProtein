@@ -28,7 +28,7 @@
     </nav>
     <header class="masthead" style="position: relative; background-color: transparent;">
         <video autoplay muted loop style="position: absolute; top: 0; left: 0; z-index: -1; width: 100vw; height: 100vh; filter: brightness(0.5) opacity(0.7); object-fit: cover;">
-            <source src="video1.webm" type="video/webm">
+            <source src="video1.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <div class="intro-body">
@@ -111,7 +111,7 @@
                     <h2>Dropping April 10th<br>Get on the waitlist</h2>
                     <form id="email-form" style="margin-bottom:20px">
                         <input type="email" id="email" name="email" required placeholder="Email" style="margin-bottom:20px;">
-                        <button type="submit" class="btn btn-primary btn-lg btn-default" id="submit-btn">Submit</button>
+                        <button type="submit" class="btn btn-primary btn-lg btn-default email-button" id="submit-btn">Submit</button>
                     </form>
                     <ul class="list-inline banner-social-buttons">
                         <a href="https://www.tiktok.com/@purinaprotein"><li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default tiktok-btn" type="button"><i class="fa fa-twitter fa-fw"></i><span class="network-name">&nbsp;Tik-tok</span></button></li>
@@ -147,6 +147,15 @@
     }
     #email:focus {
         color: #000;
+    }
+    .email-button {
+        color: rgb(180, 87, 49);
+        border: 1px solid rgb(180, 87, 49);;
+        background-color: transparent;
+    }
+    .email-button:hover{
+        border: 1px solid rgb(180, 87, 49);;
+        background-color: rgb(180, 87, 49);  
     }
 </style>
 </html>

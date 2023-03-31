@@ -9,21 +9,40 @@
 
 p {
   font-family: 'Syne';
-  font-size: 20px;
+  font-size: 18px;
 }
 
-.brand-heading {
-  line-height: 79px;
+.masthead {
+  padding: 80px 0;
 }
 
-h2 {
-  font-family: 'Syne';
+.masthead .intro-body .brand-heading {
+  font-size: 80px;
+  line-height: 70px;
+}
+
+@media (min-width: 300px) {
+  .masthead .intro-body .brand-heading {
+    font-size: 50px;
+    line-height: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead .intro-body .brand-heading {
+    font-size: 80px;
+    line-height: 70px;
+  }
 }
 
 @media (max-width: 766px) {
   .brand-heading {
     line-height: 44px;
   }
+}
+
+h2 {
+  font-family: 'Syne';
 }
 
 .content-section {
@@ -33,5 +52,100 @@ h2 {
 
 h1, h2, h3, h4, p {
   color: #bfbebf;
+}
+
+@media (max-width: 300px) {
+  .intro-body.herosection {
+    width: 93px;
+  }
+}
+
+@media (max-width: 300px) {
+  .herorow {
+    /*width: 352px;*/
+    flex-direction: column-reverse !important;
+  }
+}
+
+@media (min-width: 300px) {
+  .productimg {
+    width: 100%;
+  }
+}
+
+@media (max-width: 300px) {
+  .masthead {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 97px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 300px) {
+  .herorow {
+  }
+}
+
+@media (max-width: 576px) {
+  .flex-sm-column-reverse {
+    flex-direction: column-reverse !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .masthead .intro-body .intro-text {
+    font-size: 22px;
+  }
+}
+
+.nutritionimg {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .dude {
+    width: 590px;
+    margin-left: -212px;
+  }
+}
+
+@media (max-width: 350px) {
+  .dude {
+    width: 90px;
+    margin-left: -212px;
+  }
+}
+
+@media (max-width: 577px) {
+  .dude {
+    max-width: 400px;
+    margin-left: -102px;
+  }
+}
+
+.dude {
+  max-width: 480px;
+  margin-left: -102px;
+}
+
+.dudedog {
+  width: 590px;
+}
+
+@media (min-width: 500px) {
+  .dudedog {
+    width: 100%;
+  }
+}
+
+@media (max-width: 300px) {
+  .dudedog {
+    width: 100%;
+  }
 }
 

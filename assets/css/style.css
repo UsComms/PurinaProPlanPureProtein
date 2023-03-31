@@ -23,15 +23,29 @@ p {
 
 @media (min-width: 300px) {
   .masthead .intro-body .brand-heading {
-    font-size: 50px;
-    line-height: 40px;
+    font-size: 38px;
+    line-height: 31px;
   }
 }
 
 @media (min-width: 992px) {
   .masthead .intro-body .brand-heading {
+    font-size: 58px;
+    line-height: 47px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .masthead .intro-body .brand-heading {
+    font-size: 75px;
+    line-height: 58px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .masthead .intro-body .brand-heading {
     font-size: 80px;
-    line-height: 70px;
+    line-height: 60px;
   }
 }
 
@@ -99,7 +113,8 @@ h1, h2, h3, h4, p {
 
 @media (min-width: 768px) {
   .masthead .intro-body .intro-text {
-    font-size: 22px;
+    font-size: 18px;
+    line-height: 1.5em;
   }
 }
 
@@ -146,6 +161,28 @@ h1, h2, h3, h4, p {
 @media (max-width: 300px) {
   .dudedog {
     width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .masthead {
+    height: 90%;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1800px;
+  }
+}
+
+.brand-heading {
+}
+
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1300px;
   }
 }
 

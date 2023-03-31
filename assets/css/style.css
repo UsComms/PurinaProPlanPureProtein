@@ -95,7 +95,7 @@ h1, h2, h3, h4, p {
     padding: 97px 0;
     text-align: center;
     color: #fff;
-    background-color: #000;
+    /*background-color: #000;*/
     background-size: cover;
   }
 }
@@ -184,10 +184,4 @@ h1, h2, h3, h4, p {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1300px;
   }
-}
-
-.productvideo {
-  width: 100%;
-  max-width: 610px;
-  display: block;
 }

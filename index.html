@@ -17,7 +17,11 @@
     <nav class="navbar navbar-light navbar-expand fixed-top" id="mainNav">
         <div class="container-fluid"><a class="navbar-brand" href="#"><img class="purinalogo" src="assets/img/Purina-logo.png"></a></div>
     </nav>
-    <header class="masthead" style="background-color: #111111;background: url(&quot;assets/img/wolf.jpg&quot;);background-size: cover;">
+    <header class="masthead" style="position: relative; background-color: transparent;">
+        <video autoplay muted loop style="position: absolute; top: 0; left: 0; z-index: -1; width: 100%; height: 100%; filter: brightness(0.5) opacity(0.7);">
+            <source src="video.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
         <div class="intro-body">
             <div class="container">
                 <div class="row flex-sm-column-reverse flex-md-row herorow">
@@ -26,11 +30,7 @@
                         <p class="intro-text" style="text-align: left;">Unleash your inner alpha with Purina’s Pro Plan Protein Powder. With 666 grams of protein per serving, our meat-rich, grain free powder is your workout’s new best friend.</p>
                     </div>
                     <div class="col-md-7 d-md-flex d-xl-flex d-xxl-flex align-items-md-center align-items-xl-center justify-content-xxl-center align-items-xxl-center">
-                        <video class="productvideo" autoplay loop muted>
-                            <source src="video.webm" type="video/webm">
-                            Your browser does not support the video tag.
-                        </video>
-                        <!--<img class="productimg" src="assets/img/ProductMock_PNG.png" style="/*max-width: 610px;*/">-->
+                        <img class="productimg" src="assets/img/ProductMock_PNG.png" style="/*max-width: 610px;*/">
                     </div>
                 </div>
             </div>

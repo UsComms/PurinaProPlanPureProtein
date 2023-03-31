@@ -186,3 +186,8 @@ h1, h2, h3, h4, p {
   }
 }
 
+.productvideo {
+  width: 100%;
+  max-width: 610px;
+  display: block;
+}
